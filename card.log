@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.30)  11 SEP 2023 18:54
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.30)  11 SEP 2023 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -204,8 +204,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen162
 \Gm@layoutvoffset=\dimen163
 \Gm@dimlist=\toks20
-)
-No file card.aux.
+) (./card.aux)
 \openout1 = `card.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -219,6 +218,7 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 9.
+
 (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -336,10 +336,10 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4175 strings out of 475590
- 116498 string characters out of 5777353
+ 4178 strings out of 475590
+ 116537 string characters out of 5777353
  1911432 words of memory out of 5000000
- 25519 multiletter control sequences out of 15000+600000
+ 25520 multiletter control sequences out of 15000+600000
  558109 words of font info for 41 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,5n,107p,255b,161s stack positions out of 10000i,1000n,20000p,200000b,200000s
