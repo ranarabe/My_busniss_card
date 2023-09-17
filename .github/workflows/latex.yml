@@ -1,0 +1,19 @@
+name: LaTeX Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+         - name: Github Action for LaTeX
+           uses: xu-cheng/latex-action@v3
+           with:
+              root_file: card.tex
