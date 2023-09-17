@@ -17,6 +17,12 @@ jobs:
         with:
           name: PDF
           path: card.pdf
+          
+      - name: Get Current Date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y%m%d%H%M%S')"
+
+
 
       - name: Create Release
         id: create_release
@@ -24,8 +30,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-            tag_name: ${{ github.sha }}
-            release_name: Release ${{ github.sha }}
+            tag_name: ${{ steps.date.outputs.date }}
+            release_name: Release ${{ steps.date.outputs.date }}
             draft: false
             prerelease: false
 
