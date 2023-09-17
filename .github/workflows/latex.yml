@@ -41,7 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path:  ./output.pdf
+          asset_path:  ./card.pdf
           asset_name: card.pdf
           asset_content_type: application/pdf
           
